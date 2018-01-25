@@ -1,0 +1,17 @@
+{
+  "ecmaVersion": 7,
+  "libs": [
+    "ecmascript",
+    "browser",
+    "jquery"
+  ],
+  "loadEagerly": [
+  ],
+  "plugins": {
+    "node": { },
+    "modules": { },
+    "es_modules" : { },
+    "doc_comment": { "fullDocs": true },
+    "complete_strings": {}
+  }
+}
