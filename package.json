@@ -4,7 +4,7 @@
     "clean": "rm -rf dist/*",
     "prebuild": "npm run clean",
     "build": "npm-run-all --parallel build:* copy:assets",
-    "build:html": "pug src/index.pug -o dist --pretty",
+    "build:html": "pug src/index.pug -o dist",
     "build:styles": "stylus --compress --use autoprefixer-stylus < src/styles/index.styl > dist/main.css",
     "build:scripts": "browserify src/scripts/index.js --transform [ babelify --presets=env ] | npm run --silent uglify > dist/main.js",
     "uglify": "uglifyjs --mangle --compress sequences=true,dead_code=true,conditionals=true,booleans=true,unused=true,if_return=true,join_vars=true,drop_console=true",
