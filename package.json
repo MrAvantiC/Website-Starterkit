@@ -21,15 +21,15 @@
   ],
   "devDependencies": {
     "autoprefixer-stylus": "^0.14.0",
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.2",
     "babel-preset-env": "^1.6.1",
     "babelify": "^8.0.0",
-    "browser-sync": "^2.23.5",
+    "browser-sync": "^2.23.7",
     "browserify": "^15.2.0",
     "npm-run-all": "^4.1.2",
     "pug-cli": "^1.0.0-alpha6",
     "stylus": "^0.54.5",
-    "uglify-js": "^3.3.8",
-    "watchify": "^3.9.0"
+    "uglify-js": "^3.3.22",
+    "watchify": "^3.11.0"
   }
 }
