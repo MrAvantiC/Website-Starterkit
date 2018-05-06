@@ -1,9 +1,9 @@
 {
-  "ecmaVersion": 7,
+  "ecmaVersion": 8,
   "libs": [
     "ecmascript",
     "browser",
-    "jquery"
+    "react"
   ],
   "loadEagerly": [
   ],
