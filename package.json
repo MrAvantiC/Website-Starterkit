@@ -56,5 +56,8 @@
     "stylus": "^0.54.5",
     "uglify-js": "^3.3.25",
     "watchify": "^3.11.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
   }
 }
