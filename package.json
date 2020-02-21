@@ -26,6 +26,9 @@
         {
           "presets": [
             "@babel/preset-env"
+          ],
+          "plugins": [
+            "@babel/plugin-proposal-nullish-coalescing-operator"
           ]
         }
       ]
@@ -33,6 +36,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.1.5",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.8.3",
     "@babel/preset-env": "^7.1.5",
     "autoprefixer-stylus": "^0.14.0",
     "babel-preset-env": "^1.7.0",
