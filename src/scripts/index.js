@@ -1,7 +1,7 @@
 const foo = (bar) => {
-  const blub = bar ?? 'hello world'
-  console.log(blub)
+  const wordLength = bar?.length
+
+  console.log(wordLength)
 }
 
-foo('test')
 foo()
